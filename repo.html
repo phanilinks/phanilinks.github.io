@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        section#main-content {
+            padding: 20px 0;
+            background: #fff;
+        }
+        section#main-content h2 {
+            color: #333;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>My Website</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main-content">
+        <div class="container">
+            <h2>Welcome to My Page</h2>
+            <p>This is a paragraph of introduction about the website or the page content. You can add more paragraphs as needed to provide context or information to your visitors.</p>
+            <h2>Links</h2>
+            <ul>
+                <li><a href="https://www.example.com" style="color: #e8491d;">Example Link 1</a></li>
+                <li><a href="https://www.example.com" style="color: #50b3a2;">Example Link 2</a></li>
+                <li><a href="https://www.example.com" style="color: #333;">Example Link 3</a></li>
+                <!-- Add more links as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 My Website</p>
+        </div>
+    </footer>
+</body>
+</html>
